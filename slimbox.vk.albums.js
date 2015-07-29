@@ -106,7 +106,7 @@ function SlimboxGallery() {
 
         if (linkType == 'number') {
             presentation = presentNumber(i);
-        } else if (linkType == 'presentation' || linkType == undefined) {
+        } else if (linkType == 'image' || linkType == undefined) {
             presentation = presentImage(item);
         } else if (linkType == 'div') {
             presentation = presentDiv(item);
