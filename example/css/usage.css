@@ -1,0 +1,18 @@
+#album_container .album a img {
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+}
+
+#album_container .picture {
+    display: inline-block;
+    text-align: center;
+    margin: 30px 30px;
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    border: 7px solid #eee;
+    background-size: cover;
+    background-position: 50% 20%;
+    cursor: pointer;
+} 
