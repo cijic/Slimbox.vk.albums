@@ -6,7 +6,7 @@
 function SlimboxGallery() {
     var self = this;
     self._apiUrl = 'https://api.vk.com/method/photos.get';
-    self._albumUrlRegExp = /https?:\/\/vk.com\/album-?(\d+)_(\d+)/;
+    self._albumUrlRegExp = /https?:\/\/vk.com\/album(-?\d+)_(\d+)/;
 
     // Setting up default options.
     self._options = {
